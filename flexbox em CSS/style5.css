@@ -1,0 +1,38 @@
+body { margin:auto;
+    max-width:max-content;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-flow: row-reverse;
+    border: 2px solid black;
+    max-width: 500px;
+}
+.flex-container1 {
+    display:flexbox;
+    flex-flow: row;
+    border: 2px solid black;
+    max-width: 500px;
+    text-align: start;
+
+}
+.frow {
+    flex-direction: row-reverse;
+}
+.item { background-color: blueviolet;
+        margin: 10px;
+        text-align: center;
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+}
+.h11 {max-width: 500px;
+     height: 80px;
+     border: 1px solid black;
+     border-radius: 3px;
+     font-size: 30px;
+     font-style: italic;
+     text-align: center;
+    }
+  
